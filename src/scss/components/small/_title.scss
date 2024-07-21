@@ -1,0 +1,22 @@
+.title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: var(--color-text-add);
+  padding: 16px;
+  background: linear-gradient(90deg, var(--color-background) 0%, #fff 100%);
+  border-top: 1px solid #D9FFF5;
+  text-align: left;
+  margin-bottom: 16px;
+
+  @media (min-width: 360px) {
+    padding: 16px 24px;
+    margin-bottom: 24px;
+  }
+
+  @media(min-width: 1440px) {
+    padding: 16px 32px;
+  }
+}

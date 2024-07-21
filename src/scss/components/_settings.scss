@@ -1,0 +1,48 @@
+button {
+  border: none;
+  outline: none;
+}
+
+body {
+  height: 100%;
+  font-family: var(--font-family);
+  font-size: 14px;
+  color: var(--color-text-paragraph);
+  background-color: #fff;
+  overflow-x: hidden;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.second-wrapper {
+  background-color: var(--color-background);
+
+  @media(min-width: 1120px) {
+    min-width: 768px;
+  }
+
+  @media(min-width: 1440px) {
+    width: 1120px;
+  }
+}
+
+
+.first-wrapper {
+  @media(min-width: 1120px) {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow-x: hidden;
+  }
+}

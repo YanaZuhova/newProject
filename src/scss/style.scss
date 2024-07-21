@@ -1,0 +1,26 @@
+// reset
+@import 'components/reset';
+@import 'components/normalize';
+
+@import 'utilites/mixins', 'fonts', 'components/vars',
+'components/settings';
+
+// small components
+@import 'components/small/roundBtn';
+@import 'components/small/send-btn';
+@import 'components/small/show-all';
+@import 'components/small/title';
+@import 'components/small/swiper';
+@import 'components/small/modal';
+
+
+
+// sections
+@import 'components/header';
+@import 'components/aside';
+@import 'components/promo';
+@import 'components/brands';
+@import 'components/technics';
+@import 'components/price';
+@import 'components/footer';
+

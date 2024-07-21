@@ -1,0 +1,8 @@
+@mixin round-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: var(--color-button);
+  background-repeat: no-repeat;
+  background-position: center;
+}

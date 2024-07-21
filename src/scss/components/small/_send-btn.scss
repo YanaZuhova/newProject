@@ -1,0 +1,25 @@
+@import '../../utilites/mixins';
+
+.send-btn {
+  width: 136px;
+  height: 32px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  left: 152px;
+  border: var(--color-button);
+  border-radius: 16px;
+  background-color: var(--color-button);
+  color: var(--color-text-btn);
+  text-transform: uppercase;
+  font-family: var(--font-family);
+  font-weight: var(--weight-bold);
+  font-size: 12px;
+  letter-spacing: -0.15px;
+  align-content: center;
+
+  @media (min-width: 768px) {
+    left: 240px;
+  }
+}
